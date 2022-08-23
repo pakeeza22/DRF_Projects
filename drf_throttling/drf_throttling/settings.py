@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-!y^cbslk3-$d#f)q%$8t0^#8=ntv^$q#hfro$%ru3mype$plkb'
+SECRET_KEY =  'put your secret key here'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -82,7 +82,7 @@ DATABASES = {
         'NAME': 'drf_practice',
         'HOST': '127.0.0.1',
         'PORT': '3308',
-        'USER': 'root',
+        'USER': 'user',
         'PASSWORD': ''}
 }
 
